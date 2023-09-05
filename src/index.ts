@@ -115,7 +115,7 @@ async function executeActions(actions: any[], url: string): Promise<void> {
     new Promise((r) => setTimeout(r, 1000)); // Wait for 1 second between actions
   }
 
-  //   await browser.close();
+  await browser.close();
 }
 
 (async () => {
